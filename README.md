@@ -35,3 +35,6 @@ The gem is available as open source under the terms of the [MIT License](https:/
 * https://github.com/charlietag/test_rails_gem/compare/v0.0.1...v0.0.2
   * Add an "acts_as" Method to Active Record
     * 4.1 Add a Class Method
+* https://github.com/charlietag/test_rails_gem/compare/v0.0.2...v0.0.3
+  * Add an "acts_as" Method to Active Record
+    * 4.2 Add an Instance Method

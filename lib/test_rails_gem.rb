@@ -11,6 +11,17 @@ module TestRailsGem
   # module ActsAsGem
   #   extend ActiveSupport::Concern
   #
+  #
+  #   included do
+  #     def squawk(string)
+  #       write_attribute(self.class.gem_text_field, string.to_squawk)
+  #       #also equals to
+  #       #send("#{self.class.gem_text_field}=", string.to_squawk)
+  #
+  #     end
+  #   end
+  #
+  #
   #   class_methods do
   #     def acts_as_gem(options = {})
   #       # https://api.rubyonrails.org/classes/Module.html#method-i-mattr_accessor
