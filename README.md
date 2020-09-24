@@ -32,3 +32,6 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Changelog
 * https://github.com/charlietag/test_rails_gem/compare/v0.0.0...v0.0.1
   * add basic String ext to_squawk
+* https://github.com/charlietag/test_rails_gem/compare/v0.0.1...v0.0.2
+  * Add an "acts_as" Method to Active Record
+    * 4.1 Add a Class Method
