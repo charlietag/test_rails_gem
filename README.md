@@ -32,13 +32,13 @@ https://guides.rubyonrails.org/plugins.html
 * Use in controller
   * {Rails.root}/app/controllers/books_controller.rb
 
-    ```ruby
+    ```diff
     class BooksController < ApplicationController
     # POST /books
     # POST /books.json
     def create
       @book = Book.new(book_params)
-      @book.squawk @book.name
+    +  @book.squawk @book.name
 
       respond_to do |format|
         if @book.save
